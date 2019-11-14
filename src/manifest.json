@@ -3,13 +3,22 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
+      "name": "Settings ⚙️",
       "identifier": "ux-lint.my-command-identifier",
       "script": "./my-command.js"
+    },
+    {
+      "script": "content-check.js",
+      "handlers" : {
+        "actions" : {
+           "TextChanged.finish" : "wordsCheck",
+           "SelectionChanged.finish" : "symbolCheck"
+           }
+          }
     }
   ],
   "menu": {
-    "title": "ux-lint",
+    "title": "UX Lint",
     "items": [
       "ux-lint.my-command-identifier"
     ]
