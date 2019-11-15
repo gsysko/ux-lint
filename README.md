@@ -1,4 +1,17 @@
 # ux-lint
+UX Lint is a plugin to check your designs against certain simple rules, as you work in Sketch. By default, a small toast message will be shown to alert you to possible design issues...
+[example](https://i.imgur.com/SyCXSV4.png)
+
+Modules can be defined for different rules. Currently, the following modules exist...
+
+*Content Strategy*
+-Robotic Words check
+-Spelling check
+
+*UI Guidelines*
+-8px rhythm check
+
+Please feel free to suggest other modules with a pull request or issue submission.
 
 ## Installation
 
