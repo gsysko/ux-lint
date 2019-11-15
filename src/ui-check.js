@@ -1,4 +1,4 @@
-import {checkRhythm} from './ui-checks/check-rhythm.js';
+import checkRhythm from './ui-checks/check-rhythm.js';
 
 export function sizeCheck(context) {
   var action = context.actionContext;
@@ -7,5 +7,6 @@ export function sizeCheck(context) {
   var width = resizeTarget.frame().width()
   var height = resizeTarget.frame().height()
 
+  //Insert size check modules here
   checkRhythm(width, height)
 }

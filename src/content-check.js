@@ -1,8 +1,6 @@
 import {checkWords} from './content-checks/check-robotic-words.js';
 import {checkSpelling} from './content-checks/check-spelling.js';
 
-framework('NSDictionary')
-
 export function textCheck(context) {
   var sketch = context.api();
   var action = context.actionContext;
@@ -37,19 +35,4 @@ function checkOverrides(overrides) {
     checkWords(overrides)
     checkSpelling(overrides)
   }
-
-  // for (var override in overrides) {
-  //   log("override: " + override)
-  //   var overrideContents = overrides[override]
-  //   log("overrideContents: " + overrideContents)
-  //   log(typeof overrideContents)
-  //   if (overrideContents instanceof String){
-  //     log("String: "+overrideContents)
-  //     checkWords(overrideContents)
-  //     checkSpelling(overrideContents)
-  //   } else if (overrideContents instanceof Object){
-  //     log("Object: "+overrideContents)
-  //
-  //   }
-  // }
 }
