@@ -11,10 +11,18 @@
       "script": "content-check.js",
       "handlers" : {
         "actions" : {
-           "TextChanged.finish" : "wordsCheck",
+           "TextChanged.finish" : "textCheck",
            "SelectionChanged.finish" : "symbolCheck"
            }
-          }
+         }
+    },
+    {
+      "script": "ui-check.js",
+      "handlers" : {
+        "actions" : {
+           "LayersResized.finish" : "sizeCheck"
+           }
+         }
     }
   ],
   "menu": {
