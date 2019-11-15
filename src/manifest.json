@@ -5,7 +5,7 @@
     {
       "name": "Settings ⚙️",
       "identifier": "ux-lint.my-command-identifier",
-      "script": "./my-command.js"
+      "script": "./prefs.js"
     },
     {
       "script": "content-check.js",
