@@ -5,12 +5,12 @@ UX Lint is a plugin to check your designs against certain simple rules, as you w
 
 Modules can be defined for different rules. Currently, the following modules exist...
 
-*Content Strategy*
--Robotic Words check
--Spelling check
+**Content Strategy**
+* Robotic Words check
+* Spelling check
 
-*UI Guidelines*
--8px rhythm check
+**UI Guidelines**
+* 8px rhythm check
 
 Please feel free to suggest other modules with a pull request or issue submission.
 
